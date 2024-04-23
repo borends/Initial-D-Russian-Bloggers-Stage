@@ -1,0 +1,315 @@
+newmtl DULLPLASTIC_MISC
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd %_MISC.dds
+
+newmtl CARSKIN_SKIN1
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd %_SKIN1.dds
+
+newmtl DECAL_BADGING
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd %_BADGING.dds
+
+newmtl DOORLINE_DOORLINE
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd DOORLINE.dds
+
+newmtl CHROME_MISC
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd %_MISC.dds
+
+newmtl ALUMINUM_MISC
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd %_MISC.dds
+
+newmtl WINDSHIELD_WINDOW_LEFT_FRONT
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd WINDOW_LEFT_FRONT.dds
+
+newmtl WINDSHIELD_WINDOW_RIGHT_FRONT
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd WINDOW_RIGHT_FRONT.dds
+
+newmtl WINDSHIELD_WINDOW_FRONT
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd WINDOW_FRONT.dds
+
+newmtl WINDOWMASK_WINDOW_MASK
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd WINDOW_MASK.dds
+
+newmtl INTERIOR_INTERIOR
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd %_INTERIOR.dds
+
+newmtl CHROME_BRAKELIGHT_RIGHT
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd BRAKELIGHT_RIGHT.dds
+
+newmtl DULLPLASTIC_BRAKELIGHT_RIGHT
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd BRAKELIGHT_RIGHT.dds
+
+newmtl BRAKELIGHT_BRAKELIGHT_RIGHT
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd BRAKELIGHT_RIGHT.dds
+
+newmtl BRAKELIGHTGLASS_BRAKELIGHT_GLASS_RIGHT
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd BRAKELIGHT_GLASS_RIGHT.dds
+
+newmtl DULLPLASTIC_HEADLIGHT_LEFT
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd HEADLIGHT_LEFT.dds
+
+newmtl HEADLIGHTREFLECTOR_HEADLIGHT_LEFT
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd HEADLIGHT_LEFT.dds
+
+newmtl CHROME_HEADLIGHT_LEFT
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd HEADLIGHT_LEFT.dds
+
+newmtl HEADLIGHTGLASS_HEADLIGHT_GLASS_LEFT
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd HEADLIGHT_GLASS_LEFT.dds
+
+newmtl WINDSHIELD_WINDOW_LEFT_REAR
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd WINDOW_LEFT_REAR.dds
+
+newmtl WINDSHIELD_WINDOW_RIGHT_REAR
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd WINDOW_RIGHT_REAR.dds
+
+newmtl WINDSHIELD_REAR_DEFROSTER
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd REAR_DEFROSTER.dds
+
+newmtl DULLPLASTIC_HEADLIGHT_RIGHT
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd HEADLIGHT_RIGHT.dds
+
+newmtl HEADLIGHTREFLECTOR_HEADLIGHT_RIGHT
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd HEADLIGHT_RIGHT.dds
+
+newmtl CHROME_HEADLIGHT_RIGHT
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd HEADLIGHT_RIGHT.dds
+
+newmtl HEADLIGHTGLASS_HEADLIGHT_GLASS_RIGHT
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd HEADLIGHT_GLASS_RIGHT.dds
+
+newmtl BRAKELIGHT_BRAKELIGHT_CENTRE
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd BRAKELIGHT_CENTRE.dds
+
+newmtl GRILL_GRILL_01
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd GRILL_01.dds
+
+newmtl GRILL_GRILL_02
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd GRILL_02.dds
+
+newmtl RAD_INTERCOOLER
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd INTERCOOLER.dds
+
+newmtl CHROME_METAL_SWATCH
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd METAL_SWATCH.dds
+
+newmtl PLAINNOTHING_WINDOW_MASK
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd WINDOW_MASK.dds
+
+newmtl BOTTOM_CARBOTTOM
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd CARBOTTOM.dds
+
+newmtl CARBONFIBER_CARBONFIBRE
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd CARBONFIBRE.dds
+
+newmtl DEFAULT
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd DEFAULT.dds
+
