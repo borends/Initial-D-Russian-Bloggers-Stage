@@ -1,0 +1,14 @@
+# NFS-CarToolkit by nfsu360 (Jul  7 2020 15:49:57)
+# Generated on 2024-05-03 20:43:57
+#
+# Parts
+#
+PART	C	STYLE02_LEVEL1_T1_A	STYLE02_LEVEL1_T1_A
+#
+# Materials
+#
+MATERIAL	C	MAGCHROME_0x4abb9ac0	MAGCHROME	0x4abb9ac0
+MATERIAL	C	PLAINNOTHING_0x4abb9ac0	PLAINNOTHING	0x4abb9ac0
+#
+# Position markers
+#
