@@ -1,0 +1,216 @@
+newmtl CARSKIN_METAL_SWATCH
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd METAL_SWATCH.dds
+
+newmtl BOTTOM_0xbb1237d1
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd 0xbb1237d1.dds
+
+newmtl ENGINE_ENGINE
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd %_ENGINE.dds
+
+newmtl DULLPLASTIC_MISC
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd %_MISC.dds
+
+newmtl CARSKIN_SKIN1
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd %_SKIN1.dds
+
+newmtl INTERIOR_INTERIOR
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd %_INTERIOR.dds
+
+newmtl MIRROR_METAL_SWATCH
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd METAL_SWATCH.dds
+
+newmtl WINDSHIELD_WINDOW_FRONT
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd WINDOW_FRONT.dds
+
+newmtl WINDOWMASK_WINDOW_MASK
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd WINDOW_MASK.dds
+
+newmtl WINDSHIELD_WINDOW_LEFT_FRONT
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd WINDOW_LEFT_FRONT.dds
+
+newmtl WINDSHIELD_WINDOW_RIGHT_FRONT
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd WINDOW_RIGHT_FRONT.dds
+
+newmtl DECAL_
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd .dds
+
+newmtl MAGCHROME_MISC
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd %_MISC.dds
+
+newmtl ALUMINUM_MISC
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd %_MISC.dds
+
+newmtl BRAKELIGHTGLASS_BRAKELIGHT_GLASS_LEFT
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd BRAKELIGHT_GLASS_LEFT.dds
+
+newmtl DECAL_BRAKELIGHT_LEFT
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd BRAKELIGHT_LEFT.dds
+
+newmtl DECAL_BADGING
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd %_BADGING.dds
+
+newmtl PLAINNOTHING_0xce93f6a6
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd 0xce93f6a6.dds
+
+newmtl 0x9b4cce93_SKIN1
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd %_SKIN1.dds
+
+newmtl GRILL_GRILL_02
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd GRILL_02.dds
+
+newmtl DULLPLASTIC_0x63150d9b
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd 0x63150d9b.dds
+
+newmtl HEADLIGHTREFLECTOR_HEADLIGHT_LEFT
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd HEADLIGHT_LEFT.dds
+
+newmtl WINDSHIELD_REAR_DEFROSTER
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd REAR_DEFROSTER.dds
+
+newmtl DEFAULT
+Ns 0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.0 0.0 0.0
+d 1
+illum 2
+map_Kd DEFAULT.dds
+
