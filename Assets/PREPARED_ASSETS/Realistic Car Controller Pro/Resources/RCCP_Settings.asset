@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: RCCP_Settings
   m_EditorClassIdentifier: 
   multithreading: 1
-  behaviorSelectedIndex: 0
+  behaviorSelectedIndex: 1
   overrideFPS: 0
   overrideFixedTimeStep: 0
   fixedTimeStep: 0.02
@@ -21,7 +21,7 @@ MonoBehaviour:
   autoSyncTransforms: 1
   maxAngularVelocity: 8
   maxFPS: -1
-  overrideBehavior: 0
+  overrideBehavior: 1
   behaviorTypes:
   - behaviorName: Balanced
     ABS: 1
@@ -348,21 +348,35 @@ MonoBehaviour:
   useReverseLightsAsVertexLights: 1
   useIndicatorLightsAsVertexLights: 1
   useOtherLightsAsVertexLights: 1
-  headLights_Low: {fileID: 1495980740117152034, guid: a2f742c83b1bf2640a4b18f30a2ec2c8, type: 3}
-  headLights_High: {fileID: 1495980740117152034, guid: 7eb10c87b14f3e54893810e34d563ad1, type: 3}
-  brakeLights: {fileID: 4032949564784008766, guid: 1ffee4f1e25a480479e2fe1b021a3270, type: 3}
-  reverseLights: {fileID: 271870491454838499, guid: c22ae484448a8ea40a7c975e87decb49, type: 3}
-  indicatorLights_L: {fileID: 1682291291598843852, guid: b42e3206ce4f98845ae4f2703010d154, type: 3}
-  indicatorLights_R: {fileID: 8642046597422829130, guid: 6dc3a694fcdadbc408be054cffddb334, type: 3}
-  tailLights: {fileID: 2691649413667584722, guid: b5609141da415224f918ddb0177b75d6, type: 3}
+  headLights_Low: {fileID: 1495980740117152034, guid: a2f742c83b1bf2640a4b18f30a2ec2c8,
+    type: 3}
+  headLights_High: {fileID: 1495980740117152034, guid: 7eb10c87b14f3e54893810e34d563ad1,
+    type: 3}
+  brakeLights: {fileID: 4032949564784008766, guid: 1ffee4f1e25a480479e2fe1b021a3270,
+    type: 3}
+  reverseLights: {fileID: 271870491454838499, guid: c22ae484448a8ea40a7c975e87decb49,
+    type: 3}
+  indicatorLights_L: {fileID: 1682291291598843852, guid: b42e3206ce4f98845ae4f2703010d154,
+    type: 3}
+  indicatorLights_R: {fileID: 8642046597422829130, guid: 6dc3a694fcdadbc408be054cffddb334,
+    type: 3}
+  tailLights: {fileID: 2691649413667584722, guid: b5609141da415224f918ddb0177b75d6,
+    type: 3}
   lightBox: {fileID: 72223198486051535, guid: 7b5b8d692e26f7e4ab0f515a7882f95b, type: 3}
-  RCCPMainCamera: {fileID: 2060493299427690371, guid: fdb1354f3bd578d4faaec9dc39e2619c, type: 3}
-  RCCPHoodCamera: {fileID: 1786539850405938176, guid: f187122bd7d945b4182bd1ce47db1b04, type: 3}
-  RCCPWheelCamera: {fileID: 4317606198683106918, guid: 3941f547f9edee0469c16494011c6917, type: 3}
-  RCCPCinematicCamera: {fileID: 6853277956206537754, guid: 533113be8939e0042a81c2bfef8d2643, type: 3}
-  RCCPFixedCamera: {fileID: 2591555967798884715, guid: 19f260b32efeae9448a0f801f53db857, type: 3}
-  RCCPCanvas: {fileID: 7242563728492524846, guid: 679e140928b0c964c92a4fd6d73669c7, type: 3}
-  RCCPTelemetry: {fileID: 5931298226553231135, guid: e06159deea2e788438af7ed9956c660c, type: 3}
+  RCCPMainCamera: {fileID: 2060493299427690371, guid: fdb1354f3bd578d4faaec9dc39e2619c,
+    type: 3}
+  RCCPHoodCamera: {fileID: 1786539850405938176, guid: f187122bd7d945b4182bd1ce47db1b04,
+    type: 3}
+  RCCPWheelCamera: {fileID: 4317606198683106918, guid: 3941f547f9edee0469c16494011c6917,
+    type: 3}
+  RCCPCinematicCamera: {fileID: 6853277956206537754, guid: 533113be8939e0042a81c2bfef8d2643,
+    type: 3}
+  RCCPFixedCamera: {fileID: 2591555967798884715, guid: 19f260b32efeae9448a0f801f53db857,
+    type: 3}
+  RCCPCanvas: {fileID: 7242563728492524846, guid: 679e140928b0c964c92a4fd6d73669c7,
+    type: 3}
+  RCCPTelemetry: {fileID: 5931298226553231135, guid: e06159deea2e788438af7ed9956c660c,
+    type: 3}
   audioMixer: {fileID: 24300002, guid: 1f184b80a5580734490824e8df462002, type: 2}
   engineLowClipOn: {fileID: 8300000, guid: cd879aa0fe04e18478728c5d2777ef89, type: 3}
   engineLowClipOff: {fileID: 8300000, guid: 9cc20a291fb4d3e44ad9684aa575e0a4, type: 3}
@@ -404,10 +418,13 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 4ebe01570cad61a40be61693713688b4, type: 3}
   contactParticles: {fileID: 193332, guid: 01d1c0c6e41e0cd408370a38e1548da4, type: 3}
   scratchParticles: {fileID: 193332, guid: 30a3b5f6ca82302478f2f278e151e4ef, type: 3}
-  wheelSparkleParticles: {fileID: 5240681609208784007, guid: 5334e6d9eb50a524791108140788233e, type: 3}
+  wheelSparkleParticles: {fileID: 5240681609208784007, guid: 5334e6d9eb50a524791108140788233e,
+    type: 3}
   exhaustGas: {fileID: 104134, guid: 71646b81456d51f41b855afa0de694ab, type: 3}
-  skidmarksManager: {fileID: 114786316056322602, guid: 60a473c93b29c684784c2783e8f19074, type: 3}
-  wheelBlur: {fileID: 642269834616080727, guid: edfc5608e4637494cb26f896ce1e8d95, type: 3}
+  skidmarksManager: {fileID: 114786316056322602, guid: 60a473c93b29c684784c2783e8f19074,
+    type: 3}
+  wheelBlur: {fileID: 642269834616080727, guid: edfc5608e4637494cb26f896ce1e8d95,
+    type: 3}
   lensFlareData: {fileID: 11400000, guid: 54e5387da1f6fc941b7e12cade99ccbb, type: 2}
   foldGeneralSettings: 1
   foldBehaviorSettings: 1
