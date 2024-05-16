@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/ACC_Drift_Lite/Scenes/Demo.unity
-    guid: 9789e29865be3414080f478abfc4aa71
+    path: Assets/TRACKS/TestDrift.unity
+    guid: 21b23fc4c6b459d42a0eb739187facab
   m_configObjects: {}
