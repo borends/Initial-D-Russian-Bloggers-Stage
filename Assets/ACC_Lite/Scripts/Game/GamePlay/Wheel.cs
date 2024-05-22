@@ -1,9 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 using PG_Physics.Wheel;
-using UnityEngine.SocialPlatforms.Impl;
+using UnityEngine.SceneManagement;
+using System.Runtime.ConstrainedExecution;
 
 /// <summary>
 /// Wheel settings and update logic.
@@ -18,6 +20,10 @@ public struct Wheel
 	public Vector3 TrailOffset;
 	public bool isDrifting;
 	public int score;
+	public int goalScore;
+	public GameObject win;
+	public GameObject timer;
+	public bool won;
 
 
     public float CurrentMaxSlip { get { return Mathf.Max (CurrentForwardSleep, CurrentSidewaysSleep); } }
@@ -47,9 +53,10 @@ public struct Wheel
 			return m_PGWC;
 		}
 	}
-    public void start()
+    public void Start()
 	{
 		score = 0;
+		won = false;
 
     }
     FXController FXController { get { return FXController.Instance; } }
@@ -57,9 +64,6 @@ public struct Wheel
 
 	const int SmoothValuesCount = 3;
 
-	/// <summary>
-	/// Update gameplay logic.
-	/// </summary>
 	public void FixedUpdate ()
 	{
 
@@ -82,6 +86,14 @@ public struct Wheel
 
         }
 		scoreText.text = score.ToString ();
+
+		if (score >= goalScore && won == false)
+		{
+			win.gameObject.SetActive(true);
+            timer.GetComponent<Timer>().ExitMainMenuT();
+            won =true;
+
+        }
 	}
 
 	/// <summary>
